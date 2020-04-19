@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+          http://www.apache.org/licenses/LICENSE-2.0
+-->
+<resources>
+    <!-- Ime aplikacije [CHAR LIMIT=12] -->
+    <string name="app_name">VetApp</string>
+
+    <!-- Oznata za umetanje lažnih podataka o životinjama u aplikaciju[CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Umetni nasumične podatke</string>
+
+    <!-- Oznaka za brisanje svih podataka o životinjama u aplikaciji [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Izbriši sve životinje</string>
+
+    <!-- Naslov za aktivnost dodavanja nove životinje [CHAR LIMIT=20] -->
+    <string name="unos_novog_naslov_nova_zivotinja">Dodaj životinju</string>
+
+    <!-- Naslov za aktivnost izmjene postojeće životinje [CHAR LIMIT=20] -->
+    <string name="unos_novog_naslov_uredi_zivotinju">Izmjeni životinju</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Spremi</string>
+
+    <!-- Oznaka za opciju brisanja trenutnog ljubimca [CHAR LIMIT=20] -->
+    <string name="action_delete">Obriši</string>
+
+    <!-- Oznaka za pregled kategorije atributa [CHAR LIMIT=30] -->
+    <string name="category_overview">Pregled</string>
+
+    <!-- Oznaka za informaciju o spolu [CHAR LIMIT=30] -->
+    <string name="category_gender">Spol</string>
+
+    <!-- Oznaka za mjere u editoru [CHAR LIMIT=30] -->
+    <string name="category_measurement">Mjere</string>
+
+    <!-- Hint za polje ime u editoru[CHAR LIMIT=30] -->
+    <string name="hint_pet_name">Ime</string>
+
+    <!-- THint za polje pasmina u editoru [CHAR LIMIT=30] -->
+    <string name="hint_pet_breed">Pasmina</string>
+
+    <!-- Hint za polje težina ljubimca u editoru [CHAR LIMIT=30] -->
+    <string name="hint_pet_weight">Težina</string>
+
+    <!-- Mjera za težinu životinje (kilogrami) [CHAR LIMIT=5] -->
+    <string name="unit_pet_weight">kg</string>
+
+    <!-- Label for dropdown menu option if the pet's gender is unknown [CHAR LIMIT=20] -->
+    <string name="spol_nepoznat">Nepoznato</string>
+
+    <!-- Label for dropdown menu option if the pet is male [CHAR LIMIT=20] -->
+    <string name="spol_musko">Muško</string>
+
+    <!-- Label for dropdown menu option if the pet is female [CHAR LIMIT=20] -->
+    <string name="spol_zensko">Žensko</string>
+
+    <!-- Label for the pet's breed if the breed is unknown [CHAR LIMIT=20] -->
+    <string name="nepoznata_pasmina">Nepoznata pasmina</string>
+
+    <!-- Toast poruka u editoru prilikom uspješnog umetanja nove životinje [CHAR LIMIT=NONE] -->
+    <string name="editor_unos_zivotinje_uspjesno">Životinja spremljena</string>
+
+    <!-- Toast poruka u editoru prilikom neuspješnog umetanja životinje [CHAR LIMIT=NONE] -->
+    <string name="editor_unos_zivotinje_neuspjesno">Greška prilikom spremanja životinje</string>
+
+    <!-- Toast poruka u editoru prilikom uspješnog ažuriranja nove životinje [CHAR LIMIT=NONE] -->
+    <string name="editor_azuriranje_zivotinje_uspjesno">Životinja ažurirana</string>
+
+    <!-- Toast poruka u editoru prilikom neuspješnog ažuriranja nove životinje [CHAR LIMIT=NONE] -->
+    <string name="editor_azuriranje_zivotinje_neuspjesno">Greška prilikom ažuriranja životinje</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="nespremljene_promjene_dialog_msg">Poništi promjene i prekini s uređivanjem?</string>
+
+    <!-- Dialog button text for the option to ponisti a user's changes [CHAR LIMIT=20] -->
+    <string name="ponisti">Poništi</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="nastavi_uredivati">Nastavi uređivati</string>
+
+    <!-- Glavni tekst za praznu listu, koji upisuje prazna kućica za pse [CHAR LIMIT=50] -->
+    <string name="prazna_lista_glavni_tekst">Pomalo je pusto ovdje...</string>
+
+    <!-- Sporedni tekst za praznu listu koji nagovještava korisniku da doda ljubimca [CHAR LIMIT=50] -->
+    <string name="prazna_lista_sporedni_tekst">Započnite s dodavanjem životinje</string>
+
+    <string name="koji_je_ovo_pas">Koji je ovo pas? Dotakni fotoaparat!</string>
+
+    <string name="greska">FireBase MLKIT greška :(</string>
+
+    <string name="pas_rezultat">Ovaj pas je %1$s (%2$.2f)</string>
+</resources>
